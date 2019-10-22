@@ -4,13 +4,13 @@ localeTitle: Clases y objetos
 ---
 ## Clases y objetos
 
-### Objetos en ruby
+### Objetos en Ruby
 
-Repasemos rápidamente los objetos de rubí. En el mundo real, los objetos pueden ser cualquier cosa, incluyendo un automóvil, una computadora o incluso un humano. Cada uno de estos objetos tiene un estado y comportamientos.
+Repasemos rápidamente los objetos de Ruby. En el mundo real, los objetos pueden ser cualquier cosa, incluyendo un automóvil, una computadora o incluso un humano. Cada uno de estos objetos tiene un estado y comportamientos.
 
 Teniendo en cuenta un automóvil, su estado podría describirse como su modelo, marca y color. El comportamiento del automóvil podría ser girar, sonar o frenar.
 
-Un objeto en Ruby tiene características muy similares. Los objetos de rubí también tienen un estado y comportamiento. En Ruby Objects, el estado se almacena en variables de instancia y el comportamiento se almacena en funciones.
+Un objeto en Ruby tiene características muy similares. Los objetos de Ruby también tienen un estado y comportamiento. En Ruby Objects, el estado se almacena en variables de instancia y el comportamiento se almacena en funciones.
 
 ### Clases en Ruby
 
