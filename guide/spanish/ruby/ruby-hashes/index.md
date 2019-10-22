@@ -26,7 +26,7 @@ array[0] # => "value"
  hash["key"] # => "value" 
 ```
 
-De esta manera, un hash actúa más como un diccionario donde puede buscar un valor por su clave.
+De ésta manera, un hash actúa más como un diccionario donde puede buscar un valor por su clave.
 
 ```ruby
 dictionary = { "Aardvark" => "a large, nocturnal, burrowing mammal", 
