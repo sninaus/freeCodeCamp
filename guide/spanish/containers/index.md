@@ -14,7 +14,7 @@ Los contenedores son una virtualización a nivel de sistema operativo, una carac
 
 Una máquina virtual es esencialmente una emulación de una computadora real que ejecuta programas como una computadora real. Las máquinas virtuales se ejecutan en la parte superior de una máquina física mediante un "hipervisor". Un hipervisor, a su vez, se ejecuta en una máquina host o en "bare-metal".
 
-Un _hipervisor_ es una pieza de software, firmware o hardware que las máquinas virtuales ejecutan sobre. Los hipervisores se ejecutan en computadoras físicas, lo que se conoce como el "equipo host". El equipo host proporciona a las máquinas virtuales recursos, incluidos RAM y CPU. Estos recursos se dividen entre máquinas virtuales y se pueden distribuir como mejor le parezca. Entonces, si una máquina virtual ejecuta una aplicación con más recursos, puede asignar más recursos a esa que las otras máquinas virtuales que se ejecutan en la misma máquina host.
+Un _hipervisor_ es una pieza de software, firmware o hardware sobre el cual se ejecutan las máquinas virtuales. Los hipervisores se ejecutan en computadoras físicas, lo que se conoce como el "equipo host". El equipo host proporciona a las máquinas virtuales recursos, incluidos RAM y CPU. Estos recursos se dividen entre máquinas virtuales y se pueden distribuir como mejor le parezca. Entonces, si una máquina virtual ejecuta una aplicación con más recursos, puede asignar más recursos a esa que las otras máquinas virtuales que se ejecutan en la misma máquina host.
 
 La máquina virtual que se ejecuta en la máquina host (nuevamente, mediante un hipervisor) también se denomina “máquina invitada”. Esta máquina invitada contiene tanto la aplicación como lo que sea necesario para ejecutar esa aplicación (por ejemplo, binarios y bibliotecas del sistema). También tiene una pila de hardware virtualizada completa, que incluye adaptadores de red, almacenamiento y CPU virtualizados, lo que significa que también tiene su propio sistema operativo invitado completo. Desde el interior, la máquina invitada se comporta como una unidad propia con sus propios recursos dedicados. Desde el exterior, sabemos que es una VM que comparte los recursos proporcionados por la máquina host.
 
@@ -46,7 +46,7 @@ Hay varios marcos de orquestación de contenedores aprovechados en la producció
 
 A continuación se muestra una pequeña lista de los vendedores de contenedores más utilizados que se pueden usar.
 
-*   [Estibador](https://www.docker.com/)
+*   [Docker](https://www.docker.com/)
 *   [Kubernetes](https://kubernetes.io/)
 *   [Amazon AWS ECS](https://aws.amazon.com/ecs/?nc1=h_ls)
 *   [RKT](https://github.com/rkt/rkt)
